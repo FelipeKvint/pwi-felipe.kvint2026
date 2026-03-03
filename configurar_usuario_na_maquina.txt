@@ -17,6 +17,10 @@ echo - download da pasta da Aula - PW
 echo git clone https://github.com/davivilar/pwi-davi.vilar2025.git
 
 echo --- Fim ---
+<<<<<<< HEAD
 echo --- Grazi Linda  Saudades ---
+=======
+echo --- Grazi linda  Saudades ---
+>>>>>>> ca2b09335bc7b0b1ca31a63c2b0ab0ead5cb04a4
 
 pause
