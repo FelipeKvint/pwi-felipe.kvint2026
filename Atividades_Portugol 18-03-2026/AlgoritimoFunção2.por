@@ -3,22 +3,27 @@ programa
 	
 	funcao inicio()
 	{
-      inteiro  ntab = 3,num = 0
-      enquanto (num <=10) {
-      	leia(num)
-      	 escreva (num, "x",ntab, "=", num * ntab, "\n")
-      	num= num +1
-      }
-      escreva("Programa Finalizado : ",num)
-      }
+	cadeia nome
+	inteiro nvezes
+	nome="Felipe"
+	nvezes=2
+	rep_nome(nome,nvezes)		
+	}
+	funcao rep_nome(cadeia x, inteiro y)
+	{
+		inteiro n=1
+		enquanto(n<=y) {
+			escreva (x,"\n")
+			n++
+		}
+	}
 }
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 252; 
+ * @POSICAO-CURSOR = 231; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
