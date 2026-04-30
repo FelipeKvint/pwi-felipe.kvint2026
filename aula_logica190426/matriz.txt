@@ -1,0 +1,21 @@
+programa
+{
+	//matriz= é um tipo de variável de memória que apresenta uma estrutura de linha e colunas com possibilidade de armazenar um grande volume de dados, é formada através de um conjunto de vetores "array".
+	funcao inicio()
+	{
+		inteiro matriz[3][2] // Cria a matriz
+
+		matriz[0][0] = 10
+		matriz[0][1] = 5
+		matriz[1][1] = 10
+		matriz[1][0] = 5
+		matriz[2][1] = 10
+		matriz[2][1] = 5
+		
+		escreva(matriz[0][1])
+		
+		//escreva("[", matriz[linha][coluna], "]") // Exibe o valor contido na posição da matriz
+		escreva ("\n")
+		escreva(matriz[1][1])			
+	}
+}

@@ -1,0 +1,8 @@
+Crie um programa com vetores e solicite a quantidade de alunos por sala,
+em seguida solicite os dados do aluno: RA, nome, bairro, sexo e idade.
+
+Opcional permitir que o usuário saia antes do fim do vetor
+
+Ao final indique a Quantidade de alunos digitador;
+Determine a quantidade de alunos de um determinado bairro;
+e o total de alunos do sexo masculino e feminino.

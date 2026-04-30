@@ -1,0 +1,14 @@
+Crie um programa que solicite  a entrada de 5 números e armazene em um vetor
+
+
+1) Exiba todos os numeros digitados
+2) A final solicite um número e verifique se faz parte da lista
+3) apresente a soma de todos os valores do vetor
+
+4) Apresente o maior valor do vetor
+5) Apresente o menor valor do vetor
+
+
+
+
+
