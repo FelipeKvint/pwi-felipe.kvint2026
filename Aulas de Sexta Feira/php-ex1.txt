@@ -1,0 +1,71 @@
+<?php
+
+$float1 = 3.14;
+$float2 = 7.5;
+$float3 = 10.25;
+
+echo $float1 . PHP_EOL;
+echo $float2 . PHP_EOL;
+echo $float3 . PHP_EOL;
+
+echo "O primeiro valor é float? ";
+var_dump(is_float($float1));
+
+?>
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Claro! O código em PHP faz basicamente duas coisas: cria três números decimais (floats), imprime esses números e verifica se um deles realmente é do tipo float.
+
+1. Criando os valores
+$float1 = 3.14;
+$float2 = 7.5;
+$float3 = 10.25;
+
+Aqui são criadas três variáveis:
+
+$float1 recebe 3.14
+$float2 recebe 7.5
+$float3 recebe 10.25
+
+Como possuem casas decimais, o PHP considera esses valores como float.
+
+2. Imprimindo os três floats
+echo $float1 . PHP_EOL;
+echo $float2 . PHP_EOL;
+echo $float3 . PHP_EOL;
+
+O echo exibe o conteúdo na tela.
+
+O PHP_EOL adiciona uma quebra de linha, fazendo com que cada número apareça em uma linha diferente.
+
+A saída será:
+
+3.14
+7.5
+10.25
+3. Verificando se é um float
+echo "O primeiro valor é float? ";
+var_dump(is_float($float1));
+
+A função:
+
+is_float($float1)
+
+verifica se $float1 é do tipo float.
+
+Como $float1 contém 3.14, o resultado será true.
+
+O var_dump() mostra o resultado e também o tipo do resultado:
+
+O primeiro valor é float? bool(true)
+Resumindo
+Código	Função
+$float1 = 3.14	Cria um número decimal
+echo	Imprime na tela
+PHP_EOL	Quebra a linha
+is_float()	Verifica se uma variável é float
+var_dump()	Mostra o valor e seu tipo
+
+Portanto, o objetivo do exercício é demonstrar variáveis do tipo float, impressão de valores e verificação de tipo com is_float().

@@ -10,7 +10,7 @@
 <?php 
   
 
-  $texto = "Olá, Gabriel!";
+  $texto = "Olá, Felipe";
 
   if (is_string($texto)) {
       echo "É uma String";
